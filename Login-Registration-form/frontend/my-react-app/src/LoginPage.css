@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+}
+
+.container{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(192, 255, 201));
+}
+
+.form-container{
+    border:solid 5px white;
+    border-radius:10px;
+    display: flex;
+    flex-direction: column;
+    width:350px;
+    height:350px;
+    text-align: center;
+    
+}
+.input_field{
+    display:block;
+    width:200px;
+    text-align: left;
+    margin-left:80px;
+    margin-top:20px
+}
+.input_field label{
+    font-size: 20px;
+    font-weight:100;
+}
+
+.input_field input {
+    width:200px;
+    height:25px;
+    padding:5px;
+    margin-top:5px;
+    border:none;
+}
+
+button{
+    width:70px;
+    margin-left:140px;
+    margin-top:20px;
+    padding: 3px;
+    background-color:aliceblue;
+    border:solid 1px;
+}
